@@ -1,38 +1,112 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+div.App{
+  /* background-color: #050316; */
+  background-image: url("./images/code1.png");
+  background-repeat: repeat-y;
+  width: 100%;
+  height: 3500px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+div.App header.App-header{
+  background-color: #050316;
+  padding: 20px 0px 20px 0px ;
+  box-shadow: 2px 2px 5px black;
+}
+
+div.App header.App-header nav{
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+}
+
+div.App header.App-header nav ul{
+  margin: 0%;
+  padding: 0%;
+  flex-basis: 80%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+div.App header.App-header nav ul li{
+  color: white;
+  flex-basis: calc(100%/6);
+  text-decoration: none;
   text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div.App section#Entrace{
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  height: 350px;
+  background-color: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+div.App section#Introduce{
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  height: 500px;
+  color: white;
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: rgba(215, 215, 215, 0.3);
+}
+
+div.App section#Introduce label{
+  background-color: none;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 1000;
+  font-size: 50px;
+}
+
+div.App section#AboutMe{
+  box-shadow: 2px 2px 5px black;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  height: 500px;
   color: white;
+  text-align: center;
+  display: grid;
+  background-color: #020107;
 }
 
-.App-link {
-  color: #61dafb;
+
+div.App section#Experience{
+  box-shadow: 2px 2px 5px black;
+  margin: 200px 0px 200px 0px;
+  padding: 0%;
+  width: 100%;
+  height: 500px;
+  color: white;
+  text-align: center;
+  display: grid;
+  background-color: #020107;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+div.App section#Education{
+  box-shadow: 2px 2px 5px black;
+  margin: 200px 0px 200px 0px;
+  padding: 0%;
+  width: 100%;
+  height: 500px;
+  color: white;
+  text-align: center;
+  display: grid;
+  background-color: #020107;
 }
+
+
+
+
