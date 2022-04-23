@@ -2,7 +2,6 @@
 
 div.App{
   background-image: url("./images/code2.jpg");
-  background-repeat: repeat-y;
   width: 100%;
   height: 3350px;
   font-family: 'Roboto Mono', monospace;
@@ -82,8 +81,6 @@ div.App header.App-header button#MenuSide:active{
   height: 30px;
   margin: 10px;
   padding: 0px;
-  /* background-color:#03111d; */
-  /* border: 1px solid #041b2d; */
 }
 
 div.App header.App-header button#MenuSide:active svg{
@@ -159,9 +156,7 @@ div.App section#AboutMe{
   box-shadow: 2px 2px 5px black;
   margin: 0%;
   padding: 0%;
-  width: 100%;
-  height: 750px;
-  color: white;
+  color: whitesmoke;
   text-align: center;
   background: linear-gradient(#000, #072d4c);  
 }
@@ -169,6 +164,9 @@ div.App section#AboutMe{
 div.App section#AboutMe h2{
   grid-column: 2/4;
   grid-row: 2/3;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
 }
 
 div.App section#AboutMe figure{
@@ -222,7 +220,7 @@ div.App section#Experience{
   padding: 0%;
   width: 100%;
   height: 800px;
-  color: white;
+  color: whitesmoke;
   text-align: center;
   display: grid;
   grid-template-rows: 10px 60px 80px 210px 50px 20px 80px 210px 50px 30px;
@@ -356,6 +354,465 @@ div.App section#Education ul#Skills li svg{
 }
 /* -------------------- Education and Skills -------------------- */
 
+@media screen and (min-width: 1500px){
+  div.App header.App-header figure{
+    flex-basis: 350px;
+  }
+  div.App section#Introduce label{
+    font-weight: 1150;
+    font-size: 70px;
+  }
+  /* -------------------- About Me -------------------- */
+  div.App section#AboutMe h2{
+    font-size: 50px;
+  }
+  div.App section#AboutMe figure img{
+    width: 450px;
+    height: 450px;
+  }
+  div.App section#AboutMe p{
+    font-size: 30px;
+  }
+  div.App section#AboutMe div#LinkedIn svg{
+    width: 70px;
+    height: 70px;
+  }
+  div.App section#AboutMe div#LinkedIn a{
+    font-size: 30px;
+  }
+  /* -------------------- About Me -------------------- */
+  
+  /* -------------------- Experience -------------------- */
+  div.App section#Experience{
+    display: grid;
+    grid-template-rows: 10px 90px 110px 150px 50px 20px 110px 190px 50px 20px;
+    grid-template-columns:  10% 80% 10%; 
+  }
+  
+  div.App section#Experience h2{
+    font-size: 50px;
+  }
+  
+  div.App section#Experience h4.Tandex,
+  div.App section#Experience h4.Charo{
+    font-size: 30px;
+  }
+  
+  div.App section#Experience div.Tandex a,
+  div.App section#Experience div.Charo a,
+  div.App section#Experience p.Charo,
+  div.App section#Experience p.Tandex{
+    font-size: 20px;
+  }
+  /* -------------------- Experience -------------------- */
+  
+  /* -------------------- Education and Skills -------------------- */
+  div.App section#Education{
+    display: grid;
+    grid-template-rows: 30px 90px 600px 30px;
+    grid-template-columns:  10% 50% 30% 10%;
+  }
+  
+  div.App section#Education h2{
+    font-size: 50px;
+  }
+  
+  div.App section#Education div.School h4{
+    font-size: 30px;
+  }
+  
+  div.App section#Education div.School ul.School,
+  div.App section#Education ul#Skills{
+    font-size: 25px;
+  }
+  /* -------------------- Education and Skills -------------------- */
+}
 
+@media screen and (min-width: 1300px){
+  div.App header.App-header figure{
+    flex-basis: 300px;
+  }
+  div.App section#Introduce label{
+    font-weight: 1100;
+    font-size: 60px;
+  }
+  /* -------------------- About Me -------------------- */
+  div.App section#AboutMe h2{
+    font-size: 45px;
+  }
+  div.App section#AboutMe figure img{
+    width: 400px;
+    height: 400px;
+  }
+  div.App section#AboutMe p{
+    font-size: 25px;
+  }
+  div.App section#AboutMe div#LinkedIn svg{
+    width: 60px;
+    height: 60px;
+  }
+  div.App section#AboutMe div#LinkedIn a{
+    font-size: 25px;
+  }
+  /* -------------------- About Me -------------------- */
+  
+  /* -------------------- Experience -------------------- */
+  div.App section#Experience{
+    display: grid;
+    grid-template-rows: 10px 90px 110px 150px 50px 20px 110px 190px 50px 20px;
+    grid-template-columns:  10% 80% 10%; 
+  }
+  
+  div.App section#Experience h2{
+    font-size: 45px;
+  }
+  
+  div.App section#Experience h4.Tandex,
+  div.App section#Experience h4.Charo{
+    font-size: 24px;
+  }
+  
+  div.App section#Experience div.Tandex a,
+  div.App section#Experience div.Charo a,
+  div.App section#Experience p.Charo,
+  div.App section#Experience p.Tandex{
+    font-size: 18px;
+  }
+  /* -------------------- Experience -------------------- */
+  
+  /* -------------------- Education and Skills -------------------- */
+  div.App section#Education{
+    display: grid;
+    grid-template-rows: 30px 90px 600px 30px;
+    grid-template-columns:  10% 50% 30% 10%;
+  }
+  
+  div.App section#Education h2{
+    font-size: 45px;
+  }
+  
+  div.App section#Education div.School h4{
+    font-size: 25px;
+  }
+  
+  div.App section#Education div.School ul.School,
+  div.App section#Education ul#Skills{
+    font-size: 20px;
+  }
+  /* -------------------- Education and Skills -------------------- */
+}
 
+@media screen and (min-width: 1000px){
+  div.App header.App-header figure{
+    flex-basis: 250px;
+  }
+  div.App section#Introduce label{
+    font-weight: 1050;
+    font-size: 50px;
+  }
+  /* -------------------- About Me -------------------- */
+  div.App section#AboutMe h2{
+    font-size: 35px;
+  }
+  div.App section#AboutMe figure img{
+    width: 350px;
+    height: 350px;
+  }
+  div.App section#AboutMe p,
+  div.App section#AboutMe div#LinkedIn a{
+    font-size: 20px;
+  }
+  div.App section#AboutMe div#LinkedIn svg{
+    width: 50px;
+    height: 50px;
+  }
+  /* -------------------- About Me -------------------- */
+  
+  /* -------------------- Experience -------------------- */
+  div.App section#Experience{
+    display: grid;
+    grid-template-rows: 10px 90px 110px 150px 50px 20px 110px 190px 50px 20px;
+    grid-template-columns:  10% 80% 10%; 
+  }
+  
+  div.App section#Experience h2{
+    font-size: 35px;
+  }
+  
+  div.App section#Experience h4.Tandex,
+  div.App section#Experience h4.Charo{
+    font-size: 20px;
+  }
+  
+  div.App section#Experience div.Tandex a,
+  div.App section#Experience div.Charo a,
+  div.App section#Experience p.Charo,
+  div.App section#Experience p.Tandex{
+    font-size: 15px;
+  }
+  /* -------------------- Experience -------------------- */
+  
+  /* -------------------- Education and Skills -------------------- */
+  div.App section#Education{
+    display: grid;
+    grid-template-rows: 30px 90px 600px 30px;
+    grid-template-columns:  10% 50% 30% 10%;
+  }
+  
+  div.App section#Education h2{
+    font-size: 35px;
+  }
+  
+  div.App section#Education div.School h4{
+    font-size: 20px;
+  }
+  
+  div.App section#Education div.School ul.School,
+  div.App section#Education ul#Skills{
+    font-size: 15px;
+  }
+  /* -------------------- Education and Skills -------------------- */
+}
 
+@media screen and (max-width: 1000px){
+  div.App section#AboutMe figure img{
+    border-radius: 50%;
+    width: 295px;
+    height: 295px;
+  }
+}
+
+@media screen and (max-width: 900px){
+  div.App section#AboutMe figure img{
+    border-radius: 50%;
+    width: 285px;
+    height: 285px;
+  }
+}
+
+@media screen and (max-width: 850px){
+  div.App section#AboutMe figure img{
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  div.App{
+    background-image: url("./images/code2.jpg");
+    width: 100%;
+    height: 4000px;
+    font-family: 'Roboto Mono', monospace;
+    scroll-behavior: smooth;
+  }
+
+  /* -------------------- About Me -------------------- */
+  div.App section#AboutMe{
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-rows: 50px 50px 250px 250px 100px 50px;
+     grid-template-columns:  10% 80% 10%;
+  }
+  div.App section#AboutMe h2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  div.App section#AboutMe figure{
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  div.App section#AboutMe figure img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+  }
+  div.App section#AboutMe p{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    text-align: center;
+    display: flex;
+    align-self: center;
+  }
+  div.App section#AboutMe div#LinkedIn{
+    grid-column: 2/4;
+    grid-row: 5/6;
+  }
+  /* -------------------- About Me -------------------- */
+
+  /* -------------------- Experience -------------------- */
+  div.App section#Experience{
+    width: 100%;
+    height: 1200px;
+    display: grid;
+    grid-template-rows: 50px 50px 150px 320px 50px 10px 150px 320px 50px 50px;
+    grid-template-columns:  10% 80% 10%;
+  }
+  /* -------------------- Experience -------------------- */
+
+  /* -------------------- Education and Skills -------------------- */
+  div.App section#Education{
+    width: 100%;
+    height: 1000px;
+    display: grid;
+    grid-template-rows: 45px 50px 430px 430px 45px;
+    grid-template-columns:  10% 80% 10%;
+  }
+  div.App section#Education h2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  div.App section#Education div.School{
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  div.App section#Education ul#Skills{
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
+  /* -------------------- Education and Skills -------------------- */
+}
+
+@media screen and (max-width: 500px){
+  div.App section#Introduce label{
+    font-weight: 500;
+    font-size: 35px;
+  }
+
+  div.App header.App-header div.Space{
+    flex-basis: 30%;
+  }
+
+  div.App section#AboutMe{
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-rows: 50px 50px 200px 300px 100px 50px;
+     grid-template-columns:  10% 80% 10%;
+  }
+  
+  div.App section#AboutMe figure img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+
+  div.App section#Experience{
+    width: 100%;
+    height: 1200px;
+    display: grid;
+    grid-template-rows: 50px 50px 150px 270px 50px 60px 150px 320px 50px 50px;
+    grid-template-columns:  10% 80% 10%;
+  }
+
+  div.App section#Experience p.Tandex{
+    margin-top: 10px;
+    align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 450px){
+  div.App{
+    background-image: url("./images/code2.jpg");
+    width: 100%;
+    height: 4000px;
+    font-family: 'Roboto Mono', monospace;
+    scroll-behavior: smooth;
+  }
+  div.App header.App-header div.Space{
+    flex-basis: 20%;
+  }
+  div.App header.App-header figure{
+    flex-basis: 176px;
+  }
+  div.App section#Introduce label{
+    font-weight: 500;
+    font-size: 25px;
+  }
+
+  /* -------------------- About Me -------------------- */
+  div.App section#AboutMe{
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-rows: 50px 50px 220px 280px 100px 50px;
+    grid-template-columns:  7% 86% 7%;
+  }
+  div.App section#AboutMe h2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  div.App section#AboutMe figure img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  div.App section#AboutMe p{
+    font-size: 13px;
+  }
+  div.App section#AboutMe div#LinkedIn{
+    grid-column: 2/4;
+    grid-row: 5/6;
+  }
+  /* -------------------- About Me -------------------- */
+
+  /* -------------------- Experience -------------------- */
+  div.App section#Experience{
+    width: 100%;
+    height: 1200px;
+    display: grid;
+    grid-template-rows: 50px 50px 150px 230px 50px 100px 150px 320px 50px 50px;
+    grid-template-columns:  10% 80% 10%;
+  }
+  
+  div.App section#Experience h4.Tandex,
+  div.App section#Experience h4.Charo{
+    font-size: 14px;
+  }
+  
+  div.App section#Experience p.Tandex,
+  div.App section#Experience p.Charo{
+    margin-top: 10px;
+    align-self: flex-start;
+    font-size: 12px;
+  }
+  
+  div.App section#Experience div.Tandex a,
+  div.App section#Experience div.Charo a{
+    font-size: 14px;
+  }
+  
+  /* -------------------- Experience -------------------- */
+
+  /* -------------------- Education and Skills -------------------- */
+  div.App section#Education{
+    width: 100%;
+    height: 1000px;
+    display: grid;
+    grid-template-rows: 45px 50px 430px 430px 45px;
+    grid-template-columns:  10% 80% 10%;
+  }
+  div.App section#Education h2{
+    font-size: 14px;
+  }
+
+  div.App section#Education ul#Skills,
+  div.App section#Education div.School ul.School{
+    font-size: 12px;
+  }
+  /* -------------------- Education and Skills -------------------- */
+}
+
+@media screen and (max-width: 300px){
+  /* -------------------- Experience -------------------- */
+  div.App section#Experience{
+    width: 100%;
+    height: 1200px;
+    display: grid;
+    grid-template-rows: 50px 50px 150px 230px 50px 50px 150px 350px 50px 70px;
+    grid-template-columns:  10% 80% 10%;
+  }
+  
+  /* -------------------- Experience -------------------- */
+}

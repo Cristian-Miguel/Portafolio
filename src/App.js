@@ -33,7 +33,7 @@ function App() {
       <section id="Introduce">
         <label>Hello!</label>
         <label>I'm Cristian Miguel</label>
-        <label>Computer System Engineer</label>
+        <label>a Computer System Engineer</label>
       </section>
 
       <section id='AboutMe'>
@@ -61,7 +61,7 @@ function App() {
 
       <section id='Experience'>
         <h2>Experience</h2>
-        <h4 class="Tandex">Project of the Academic Software Factory of the Morelia Institute of Technology, System of management about inventory, and articles published.</h4>
+        <h4 class="Tandex">Project of the Fábrica Académica de Software of the Instituto Tecnológico de Morelia, System of management about inventory, and articles published.</h4>
         <p class="Tandex">
           The project was about a system that may upload and published products of the store on different platforms like Amazon, Mercado Libre, 
           and WooCommerce, in this case, my team used technologies like React and Node, and APIs Rest to send it to different platforms, in addition, my role was Developer.
@@ -78,7 +78,7 @@ function App() {
 
         
         <h4 class="Charo">
-          Project of the Academic Software Factory of the Morelia Institute of Technology, 
+          Project of the Fábrica Académica de Software of the Instituto Tecnológico de Morelia, 
           System of management about government supports on the town of Charo.
         </h4>
         <p class="Charo">
@@ -104,7 +104,7 @@ function App() {
         <h2>Education and Skills</h2>
 
         <div class="School">
-          <h4>Morelia Institute of Technology "José María Morelos y Pavón"</h4>
+          <h4>Instituto Tecnológico de Morelia "José María Morelos y Pavón"</h4>
           <ul class="School">
             <li>
               Student of Computer Systems Engineering, in the ninth semester.
@@ -113,7 +113,7 @@ function App() {
               Studying a specialty in Software Engineering.
             </li>
             <li>
-              Affiliation to the Academic Software Factory (FAS in Spanish).
+              Affiliation to the Fábrica Académica de Software (FAS).
             </li>
           </ul>
           <h4>Idioms</h4>
