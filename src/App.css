@@ -1,18 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 div.App{
-  /* background-color: #050316; */
-  /* background-image: url("./images/code1.png"); */
   background-image: url("./images/code2.jpg");
   background-repeat: repeat-y;
   width: 100%;
-  height: 3500px;
+  height: 3350px;
   font-family: 'Roboto Mono', monospace;
   scroll-behavior: smooth;
 }
 
 div.App header.App-header{
-  /* background-color: #050316; 01080e*/
   background-color: #01080e;
   padding: 10px 0px 10px 0px ;
   box-shadow: 2px 2px 5px black;
@@ -145,6 +142,7 @@ div.App section#Introduce label{
   font-size: 50px;
 }
 
+/* -------------------- About Me -------------------- */
 div.App section#AboutMe{
   display: grid;
   display: -ms-grid;
@@ -210,32 +208,148 @@ div.App section#AboutMe div#LinkedIn a{
   color: whitesmoke;
   margin-left: 15px;
 }
+/* -------------------- About Me -------------------- */
 
+/* -------------------- Experience -------------------- */
 div.App section#Experience{
   box-shadow: 2px 2px 5px black;
   margin: 200px 0px 200px 0px;
   padding: 0%;
   width: 100%;
-  height: 500px;
+  height: 800px;
   color: white;
   text-align: center;
   display: grid;
-  /* background-color: #020107; */
+  grid-template-rows: 10px 60px 80px 210px 50px 20px 80px 210px 50px 30px;
+  grid-template-columns:  10% 80% 10%;
   background: linear-gradient(#000, #072d4c);  
 }
 
+div.App section#Experience h2{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin: 2px 0px 2px 0px;
+  align-self: center;
+}
+
+div.App section#Experience h4.Tandex{
+  grid-column: 2/3;
+  grid-row: 3/4;
+  margin: 2px 0px 2px 0px;
+  align-self: center;
+}
+
+div.App section#Experience p.Tandex{
+  grid-column: 2/3;
+  grid-row: 4/5;
+  margin: 2px 0px 2px 0px;
+  align-self: center;
+}
+
+div.App section#Experience div.Tandex{
+  grid-column: 2/3;
+  grid-row: 5/6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.App section#Experience div.Tandex a{
+  color: whitesmoke;
+  margin-left: 10px;
+}
+
+div.App section#Experience h4.Charo{
+  grid-column: 2/3;
+  grid-row: 7/8;
+  margin: 2px 0px 2px 0px;
+  align-self: center;
+}
+
+div.App section#Experience p.Charo{
+  grid-column: 2/3;
+  grid-row: 8/9;
+  margin: 2px 0px 2px 0px;
+  align-self: center;
+}
+
+div.App section#Experience div.Charo{
+  grid-column: 2/3;
+  grid-row: 9/10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.App section#Experience div.Charo a{
+  color: whitesmoke;
+  margin-left: 10px;
+}
+/* -------------------- Experience -------------------- */
+
+/* -------------------- Education and Skills -------------------- */
 div.App section#Education{
   box-shadow: 2px 2px 5px black;
   margin: 200px 0px 200px 0px;
   padding: 0%;
   width: 100%;
-  height: 500px;
+  height: 750px;
   color: white;
   text-align: center;
   display: grid;
-  /* background-color: #020107; */
+  grid-template-rows: 50px 50px 600px 50px;
+  grid-template-columns:  10% 50% 30% 10%;
   background: linear-gradient(#000, #072d4c);  
 }
+
+div.App section#Education h2{
+  grid-column: 2/4;
+  grid-row: 2/3;
+  margin: 2px 0px 2px 0px;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+
+div.App section#Education div.School{
+  grid-column: 2/3;
+  grid-row: 3/4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.App section#Education div.School h4{
+  margin: 2px 0px 2px 0px;
+}
+
+div.App section#Education div.School ul.School{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+div.App section#Education ul#Skills{
+  grid-column: 3/4;
+  grid-row: 3/4;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+div.App section#Education ul#Skills li{
+  display: flex;
+  
+  margin-bottom: 5px;
+}
+
+div.App section#Education ul#Skills li svg{
+  margin-right: 20px;
+}
+/* -------------------- Education and Skills -------------------- */
 
 
 
