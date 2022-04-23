@@ -15,11 +15,11 @@ function App() {
         </button>
 
         <div id="mySidenav" class="sidenav">
-          <a class="closebtn" onClick={closeNav} >x</a>
+          <button href='#' class="closebtn" onClick={closeNav} >x</button>
           <a href="#AboutMe">About Me</a>
           <a href="#Experience">Experience</a>
           <a href="#Education">Education and Skill</a>
-          <a href="#">Portfolio</a>
+          <button href="#">Portfolio</button>
         </div>
 
         <div class="Space"></div>
@@ -39,7 +39,7 @@ function App() {
       <section id='AboutMe'>
          <h2>About Me</h2>
         <figure>
-          <img src={PersonalPhoto} alt="Personal Photo" width={50}/>
+          <img src={PersonalPhoto} alt="Personal" width={50}/>
         </figure>
         <p>
           I'm studying Computer System Engineer at the Morelia Institute of Technology, 

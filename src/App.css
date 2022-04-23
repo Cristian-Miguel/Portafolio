@@ -32,20 +32,25 @@ div.App header.App-header div.sidenav{
   padding-top: 60px;
 }
 
+div.App header.App-header div.sidenav button,
 div.App header.App-header div.sidenav a {
   padding: 8px 8px 8px 32px;
+  background-color: #111;
+  border: 0px solid #111;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
   display: block;
   transition: 0.3s;
+  cursor: pointer;
 }
 
+div.App header.App-header div.sidenav button:hover,
 div.App header.App-header div.sidenav a:hover {
   color: #f1f1f1;
 }
 
-div.App header.App-header div.sidenav a.closebtn {
+div.App header.App-header div.sidenav button.closebtn {
   position: absolute;
   top: 0;
   right: 25px;
@@ -56,7 +61,7 @@ div.App header.App-header div.sidenav a.closebtn {
 
 @media screen and (max-height: 450px) {
   div.App header.App-header div.sidenav {padding-top: 15px;}
-  div.App header.App-header div.sidenav a {font-size: 18px;}
+  div.App header.App-header div.sidenav button {font-size: 18px;}
 }
 /* ---------- Menu Side Bar ---------- */
 
