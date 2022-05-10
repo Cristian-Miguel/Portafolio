@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.d7b9813e.css",
-    "main.js": "/Portafolio/static/js/main.8c55d030.js",
-    "static/js/787.1662f9b5.chunk.js": "/Portafolio/static/js/787.1662f9b5.chunk.js",
-    "static/media/code2.jpg": "/Portafolio/static/media/code2.c8a58949f1fc03ca9278.jpg",
+    "main.css": "/Portafolio/static/css/main.380478c6.css",
+    "main.js": "/Portafolio/static/js/main.ea43b2f8.js",
+    "static/media/Code1.jpg": "/Portafolio/static/media/Code1.9f705bff69726086f8b5.jpg",
+    "static/media/Proceso3.png": "/Portafolio/static/media/Proceso3.9e7770bba4616b76dc54.png",
+    "static/media/Proceso2.png": "/Portafolio/static/media/Proceso2.ff4d8f2885662528ed8f.png",
+    "static/media/Proceso1.png": "/Portafolio/static/media/Proceso1.9ab7c08e622cff013e99.png",
+    "static/media/Flutter2.png": "/Portafolio/static/media/Flutter2.e7eff3275a463119f02e.png",
+    "static/media/Flutter1.png": "/Portafolio/static/media/Flutter1.1fa747f62c426d69e01b.png",
     "static/media/FotoTamInf.jpeg": "/Portafolio/static/media/FotoTamInf.0c2b9948809ca23df199.jpeg",
+    "static/media/Flutter4.png": "/Portafolio/static/media/Flutter4.f498d063aa5ab08de3ce.png",
+    "static/media/Cminus2.png": "/Portafolio/static/media/Cminus2.1d67ad056799240d0ed4.png",
+    "static/media/Cminus1.png": "/Portafolio/static/media/Cminus1.71c1728d55e013bbb9b1.png",
+    "static/media/Cminus3.png": "/Portafolio/static/media/Cminus3.a505b1bb9a144cf14e0a.png",
     "index.html": "/Portafolio/index.html",
-    "main.d7b9813e.css.map": "/Portafolio/static/css/main.d7b9813e.css.map",
-    "main.8c55d030.js.map": "/Portafolio/static/js/main.8c55d030.js.map",
-    "787.1662f9b5.chunk.js.map": "/Portafolio/static/js/787.1662f9b5.chunk.js.map"
+    "main.380478c6.css.map": "/Portafolio/static/css/main.380478c6.css.map",
+    "main.ea43b2f8.js.map": "/Portafolio/static/js/main.ea43b2f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7b9813e.css",
-    "static/js/main.8c55d030.js"
+    "static/css/main.380478c6.css",
+    "static/js/main.ea43b2f8.js"
   ]
 }
