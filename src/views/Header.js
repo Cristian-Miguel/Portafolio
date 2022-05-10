@@ -13,15 +13,15 @@ function Header() {
                 </svg>
             </button>
 
-            <div id="mySidenav" class="sidenav">
-                <button href='#' class="closebtn" onClick={closeNav} >x</button>
+            <div id="mySidenav" className="sidenav">
+                <button href='#' className="closebtn" onClick={closeNav} >x</button>
                 <a href="#AboutMe">About Me</a>
                 <a href="#Experience">Experience</a>
                 <a href="#Education">Education and Skill</a>
                 <button href="/Proyects" onClick={redirectPortafolio}>Portfolio</button>
             </div>
 
-            <div class="Space"></div>
+            <div className="Space"></div>
 
             <figure>
                 <img src={LogoPicture} alt="Personal Logo" />
