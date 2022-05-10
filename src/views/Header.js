@@ -1,6 +1,6 @@
 import LogoPicture from "../images/Logo.png";
 import '../css/Header.css';
-
+import {Link} from "react-router-dom";
 
 function Header() {
     return (
@@ -15,11 +15,8 @@ function Header() {
 
             <div id="mySidenav" className="sidenav">
                 <button href='#' className="closebtn" onClick={closeNav} >x</button>
-                <a href="#AboutMe">About Me</a>
-                <a href="#Experience">Experience</a>
-                <a href="#Education">Education and Skill</a>
-                <a href="/#/Portafolio/Proyects">Projets</a>
-                {/* <button onClick={redirectPortafolio}>a</button> */}
+                <button><Link to="/">Home</Link></button>
+                <button><Link to="/Proyects">Projets</Link></button>
             </div>
 
             <div className="Space"></div>
@@ -30,10 +27,6 @@ function Header() {
         </header>
     );
 }
-
-// function redirectPortafolio(){
-//     window.location.href = "/Portafolio/Proyects";
-// }
 
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
