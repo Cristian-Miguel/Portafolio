@@ -10,7 +10,6 @@ function PagesRoutes() {
                 <Route exact path="/Portafolio" element={<App/>}/>
 
                 <Route exact path="/Portafolio/Proyects"element={<Portafolio/>}/>
-
             </Routes>
         </HashRouter> 
     );
