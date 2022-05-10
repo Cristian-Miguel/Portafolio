@@ -31,7 +31,7 @@ function Header() {
 }
 
 function redirectPortafolio(){
-    window.location.href = "/Proyects";
+    window.location.href = "/Portafolio/Proyects";
 }
 
 function openNav() {
