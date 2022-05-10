@@ -202,11 +202,11 @@ function Portafolio() {
 }
 
 function redirectHome(){
-  window.location.href = "/Portafolio/Home";
+  window.location.href = "/#/Portafolio";
 }
 
 function redirectPortafolio(){
-    window.location.href = "/Portafolio/Proyects";
+    window.location.href = "/#/Portafolio/Proyects";
 }
 
 function openNav() {

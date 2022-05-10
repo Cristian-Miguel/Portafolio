@@ -18,7 +18,8 @@ function Header() {
                 <a href="#AboutMe">About Me</a>
                 <a href="#Experience">Experience</a>
                 <a href="#Education">Education and Skill</a>
-                <button href="/Proyects" onClick={redirectPortafolio}>Portfolio</button>
+                <a href="/#/Portafolio/Proyects">Projets</a>
+                {/* <button onClick={redirectPortafolio}>a</button> */}
             </div>
 
             <div className="Space"></div>
@@ -30,9 +31,9 @@ function Header() {
     );
 }
 
-function redirectPortafolio(){
-    window.location.href = "/Portafolio/Proyects";
-}
+// function redirectPortafolio(){
+//     window.location.href = "/Portafolio/Proyects";
+// }
 
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
