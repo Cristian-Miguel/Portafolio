@@ -20,7 +20,7 @@ function App() {
           <img src={PersonalPhoto} alt="Personal" width={50}/>
         </figure>
         <p>
-          I'm studying Computer System Engineer at the Morelia Institute of Technology, 
+          I'm graduate in Computer System Engineer at the Instituto Tecnológico de Morelia, 
           my specialty is about the create quality software with Development Agile Methodologies. 
           I'm a person with a positive attitude, a teamwork person, and motivation, in the same way, 
           I have disponibility for always learning new technologies.
@@ -33,49 +33,64 @@ function App() {
             </svg>
             <a href="https://www.linkedin.com/in/cristian-miguel-marin-barrera-936803200">Cristian Miguel Marin Barrera</a>
         </div> 
-        
-
       </section>
 
-      <section id='Experience'>
+      <section id='SectionExperience'>
         <h2>Experience</h2>
-        <h4 className="Tandex">Project of the Fábrica Académica de Software of the Instituto Tecnológico de Morelia, System of management about inventory, and articles published. | January 2021 - July 2021</h4>
-        <p className="Tandex">
-          The project was about a system that may upload and published products of the store on different platforms like Amazon, Mercado Libre, 
-          and WooCommerce, in this case, my team used technologies like React and Node, and APIs Rest to send it to different platforms, in addition, my role was full stack developer.
-        </p>
+        <div className="ContainerTandex">
+          <h4 className="Tandex">
+            Project of the Fábrica Académica de Software of the Instituto Tecnológico de Morelia,
+            System of management about inventory, and articles published | January 2021 - July 2021
+          </h4>
+          <p className="Tandex">
+            The project was about a system that may upload and published products of the store on different platforms like Amazon, Mercado Libre, 
+            and WooCommerce, in this case, my team used technologies like React and Node, and APIs Rest to send it to different platforms, in addition, my role was full stack developer.
+          </p>
+          <div className="Tandex">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill='whitesmoke' width={50} height={50}>
+              {/*<!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --> */}
+              <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/>
+            </svg>
+            <a href="https://www.youtube.com/watch?v=SObRbtKyNCY">Video about the system, in Spanish</a>
+          </div>
+        </div>
+        
+        <div className="ContainerCharo">
+          <h4 className="Charo">
+            Project of the Fábrica Académica de Software of the Instituto Tecnológico de Morelia, 
+            System of management about government supports on the town of Charo. | August 2021 - Agust 2022.
+          </h4>
+          <p className="Charo">
+            The project is focused on supporting the people with some help like shoes, 
+            uniforms, medicines, food pantries, etcetera. However they need registration 
+            in the system with all personal data, and also they can register a group to 
+            get some help. Furthermore, they can upload new supports for the people, and 
+            they must sign up the people who work in the system,  they must actualize and 
+            check the support who could be accepted or rejected. This system is being 
+            developed in Laravel 8 and PHP 7 and my role was full stack developer.
+          </p>
+          <div className="Charo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill='whitesmoke' width={50} height={50}>
+              {/*<!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --> */}
+              <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/>
+            </svg>
+            <a href="https://www.youtube.com/watch?v=dgqLWqBqUCY">Video about the system, in Spanish</a>
+          </div>
+        </div>
 
-        <div className="Tandex">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill='whitesmoke' width={50} height={50}>
-             {/*<!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --> */}
-            <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/>
-          </svg>
-          <a href="https://www.youtube.com/watch?v=SObRbtKyNCY">Video about the system, in Spanish</a>
+        <div className="ContainerCMV">
+          <h4 className="CMV"> 
+            Internship at Caja Morelia Valladolid | September 2022 - currently 
+          </h4>
+          <p className="CMV"> 
+          The project that I realize is the Automation of Money Laundering Prevention 
+          Processes, I work as a full-stack developer, and my activities are to create 
+          the best solution in SQL, front-end, and back-end code in the technologies of 
+          Vue.js, C#, .NET, and SQL server 2014.
+        </p>
         </div>
         
 
-        
-        <h4 className="Charo">
-          Project of the Fábrica Académica de Software of the Instituto Tecnológico de Morelia, 
-          System of management about government supports on the town of Charo.
-        </h4>
-        <p className="Charo">
-          The project is focused on supporting the people with some help like shoes, 
-          uniforms, medicines, food pantries, etcetera. However they need registration 
-          in the system with all personal data, and also they can register a group to 
-          get some help. Furthermore, they can upload new supports for the people, and 
-          they must sign up the people who work in the system,  they must actualize and 
-          check the support who could be accepted or rejected. This system is being 
-          developed in Laravel 8 and PHP 7 and my role was full stack developer.
-        </p>
-        <div className="Charo">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill='whitesmoke' width={50} height={50}>
-             {/*<!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --> */}
-            <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/>
-          </svg>
-          <a href="https://www.youtube.com/watch?v=dgqLWqBqUCY">Video about the system, in Spanish</a>
-        </div>
-        
       </section>
 
       <section id='Education'>

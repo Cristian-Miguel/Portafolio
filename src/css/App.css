@@ -110,80 +110,57 @@ div.App section#AboutMe div#LinkedIn a{
 /* -------------------- About Me -------------------- */
 
 /* -------------------- Experience -------------------- */
-div.App section#Experience{
+div.App section#SectionExperience{
   box-shadow: 2px 2px 5px black;
   margin: 200px 0px 200px 0px;
   padding: 0%;
   width: 100%;
-  height: 800px;
+  height: 1300px;
   color: whitesmoke;
   text-align: center;
+  background: linear-gradient(#000, #072d4c);
   display: grid;
-  grid-template-rows: 10px 60px 80px 210px 50px 20px 80px 210px 50px 30px;
-  grid-template-columns:  10% 80% 10%;
-  background: linear-gradient(#000, #072d4c);  
+  grid-template-rows: 10px 80px 400px 400px 400px 10px;
+  grid-template-columns: 10% 80% 10%;
 }
 
-div.App section#Experience h2{
+div.App section#SectionExperience h2{
   grid-column: 2/3;
   grid-row: 2/3;
   margin: 2px 0px 2px 0px;
   align-self: center;
 }
 
-div.App section#Experience h4.Tandex{
-  grid-column: 2/3;
+div.App section#SectionExperience div.ContainerTandex{
   grid-row: 3/4;
+  grid-column: 2/3;
   margin: 2px 0px 2px 0px;
   align-self: center;
 }
 
-div.App section#Experience p.Tandex{
-  grid-column: 2/3;
+div.App section#SectionExperience div.ContainerCharo{
   grid-row: 4/5;
+  grid-column: 2/3;
   margin: 2px 0px 2px 0px;
   align-self: center;
 }
 
-div.App section#Experience div.Tandex{
-  grid-column: 2/3;
+div.App section#SectionExperience div.ContainerCMV{
   grid-row: 5/6;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-div.App section#Experience div.Tandex a{
-  color: whitesmoke;
-  margin-left: 10px;
-}
-
-div.App section#Experience h4.Charo{
   grid-column: 2/3;
-  grid-row: 7/8;
   margin: 2px 0px 2px 0px;
   align-self: center;
 }
 
-div.App section#Experience p.Charo{
-  grid-column: 2/3;
-  grid-row: 8/9;
-  margin: 2px 0px 2px 0px;
-  align-self: center;
-}
-
-div.App section#Experience div.Charo{
-  grid-column: 2/3;
-  grid-row: 9/10;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-div.App section#Experience div.Charo a{
+div.App section#SectionExperience a{
   color: whitesmoke;
   margin-left: 10px;
 }
+div.App section#SectionExperience h4{
+  margin-bottom: 10px;
+}
+
+
 /* -------------------- Experience -------------------- */
 
 /* -------------------- Education and Skills -------------------- */
@@ -286,19 +263,16 @@ div.App section#Education ul#Skills li svg{
     grid-template-columns:  10% 80% 10%; 
   }
   
-  div.App section#Experience h2{
+  div.App section#SectionExperience h2{
     font-size: 50px;
   }
   
-  div.App section#Experience h4.Tandex,
-  div.App section#Experience h4.Charo{
+  div.App section#SectionExperience h4{
     font-size: 30px;
   }
   
-  div.App section#Experience div.Tandex a,
-  div.App section#Experience div.Charo a,
-  div.App section#Experience p.Charo,
-  div.App section#Experience p.Tandex{
+  div.App section#SectionExperience a,
+  div.App section#SectionExperience p{
     font-size: 20px;
   }
   /* -------------------- Experience -------------------- */
@@ -354,30 +328,6 @@ div.App section#Education ul#Skills li svg{
   }
   /* -------------------- About Me -------------------- */
   
-  /* -------------------- Experience -------------------- */
-  div.App section#Experience{
-    display: grid;
-    grid-template-rows: 10px 90px 110px 150px 50px 20px 110px 190px 50px 20px;
-    grid-template-columns:  10% 80% 10%; 
-  }
-  
-  div.App section#Experience h2{
-    font-size: 45px;
-  }
-  
-  div.App section#Experience h4.Tandex,
-  div.App section#Experience h4.Charo{
-    font-size: 24px;
-  }
-  
-  div.App section#Experience div.Tandex a,
-  div.App section#Experience div.Charo a,
-  div.App section#Experience p.Charo,
-  div.App section#Experience p.Tandex{
-    font-size: 18px;
-  }
-  /* -------------------- Experience -------------------- */
-  
   /* -------------------- Education and Skills -------------------- */
   div.App section#Education{
     display: grid;
@@ -427,26 +377,17 @@ div.App section#Education ul#Skills li svg{
   /* -------------------- About Me -------------------- */
   
   /* -------------------- Experience -------------------- */
-  div.App section#Experience{
-    display: grid;
-    grid-template-rows: 10px 90px 110px 150px 50px 20px 110px 190px 50px 20px;
-    grid-template-columns:  10% 80% 10%; 
+  div.App section#SectionExperience h2{
+    font-size: 40px;
   }
   
-  div.App section#Experience h2{
-    font-size: 35px;
+  div.App section#SectionExperience h4{
+    font-size: 26px;
   }
   
-  div.App section#Experience h4.Tandex,
-  div.App section#Experience h4.Charo{
-    font-size: 20px;
-  }
-  
-  div.App section#Experience div.Tandex a,
-  div.App section#Experience div.Charo a,
-  div.App section#Experience p.Charo,
-  div.App section#Experience p.Tandex{
-    font-size: 15px;
+  div.App section#SectionExperience a,
+  div.App section#SectionExperience p{
+    font-size: 16px;
   }
   /* -------------------- Experience -------------------- */
   
@@ -535,16 +476,6 @@ div.App section#Education ul#Skills li svg{
   }
   /* -------------------- About Me -------------------- */
 
-  /* -------------------- Experience -------------------- */
-  div.App section#Experience{
-    width: 100%;
-    height: 1200px;
-    display: grid;
-    grid-template-rows: 50px 50px 150px 320px 50px 10px 150px 320px 50px 50px;
-    grid-template-columns:  10% 80% 10%;
-  }
-  /* -------------------- Experience -------------------- */
-
   /* -------------------- Education and Skills -------------------- */
   div.App section#Education{
     width: 100%;
@@ -566,6 +497,21 @@ div.App section#Education ul#Skills li svg{
     grid-row: 4/5;
   }
   /* -------------------- Education and Skills -------------------- */
+}
+
+@media screen and (max-width: 650px){
+  div.App section#SectionExperience h2{
+    font-size: 32px;
+  }
+  
+  div.App section#SectionExperience h4{
+    font-size: 18px;
+  }
+  
+  div.App section#SectionExperience a,
+  div.App section#SectionExperience p{
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 500px){
@@ -592,18 +538,6 @@ div.App section#Education ul#Skills li svg{
     height: 200px;
   }
 
-  div.App section#Experience{
-    width: 100%;
-    height: 1200px;
-    display: grid;
-    grid-template-rows: 50px 50px 150px 270px 50px 60px 150px 320px 50px 50px;
-    grid-template-columns:  10% 80% 10%;
-  }
-
-  div.App section#Experience p.Tandex{
-    margin-top: 10px;
-    align-self: flex-start;
-  }
 }
 
 @media screen and (max-width: 450px){
@@ -643,34 +577,18 @@ div.App section#Education ul#Skills li svg{
     grid-row: 5/6;
   }
   /* -------------------- About Me -------------------- */
-
-  /* -------------------- Experience -------------------- */
-  div.App section#Experience{
-    width: 100%;
-    height: 1200px;
-    display: grid;
-    grid-template-rows: 50px 50px 150px 230px 50px 100px 150px 320px 50px 50px;
-    grid-template-columns:  10% 80% 10%;
+  div.App section#SectionExperience h2{
+    font-size: 30px;
   }
   
-  div.App section#Experience h4.Tandex,
-  div.App section#Experience h4.Charo{
-    font-size: 14px;
+  div.App section#SectionExperience h4{
+    font-size: 16px;
   }
   
-  div.App section#Experience p.Tandex,
-  div.App section#Experience p.Charo{
-    margin-top: 10px;
-    align-self: flex-start;
-    font-size: 12px;
+  div.App section#SectionExperience a,
+  div.App section#SectionExperience p{
+    font-size: 10px;
   }
-  
-  div.App section#Experience div.Tandex a,
-  div.App section#Experience div.Charo a{
-    font-size: 14px;
-  }
-  
-  /* -------------------- Experience -------------------- */
 
   /* -------------------- Education and Skills -------------------- */
   div.App section#Education{
@@ -689,16 +607,4 @@ div.App section#Education ul#Skills li svg{
     font-size: 12px;
   }
   /* -------------------- Education and Skills -------------------- */
-}
-
-@media screen and (max-width: 300px){
-  /* -------------------- Experience -------------------- */
-  div.App section#Experience{
-    width: 100%;
-    height: 1200px;
-    display: grid;
-    grid-template-rows: 50px 50px 150px 230px 50px 50px 150px 350px 50px 70px;
-    grid-template-columns:  10% 80% 10%;
-  }
-  /* -------------------- Experience -------------------- */
 }
