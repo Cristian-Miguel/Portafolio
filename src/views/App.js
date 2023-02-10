@@ -39,10 +39,10 @@ function App() {
 
       <section id='Experience'>
         <h2>Experience</h2>
-        <h4 className="Tandex">Project of the Fábrica Académica de Software of the Instituto Tecnológico de Morelia, System of management about inventory, and articles published.</h4>
+        <h4 className="Tandex">Project of the Fábrica Académica de Software of the Instituto Tecnológico de Morelia, System of management about inventory, and articles published. | January 2021 - July 2021</h4>
         <p className="Tandex">
           The project was about a system that may upload and published products of the store on different platforms like Amazon, Mercado Libre, 
-          and WooCommerce, in this case, my team used technologies like React and Node, and APIs Rest to send it to different platforms, in addition, my role was Developer.
+          and WooCommerce, in this case, my team used technologies like React and Node, and APIs Rest to send it to different platforms, in addition, my role was full stack developer.
         </p>
 
         <div className="Tandex">
@@ -66,7 +66,7 @@ function App() {
           get some help. Furthermore, they can upload new supports for the people, and 
           they must sign up the people who work in the system,  they must actualize and 
           check the support who could be accepted or rejected. This system is being 
-          developed in Laravel 8 and PHP 7 and my role was Developer.
+          developed in Laravel 8 and PHP 7 and my role was full stack developer.
         </p>
         <div className="Charo">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill='whitesmoke' width={50} height={50}>
@@ -85,10 +85,10 @@ function App() {
           <h4>Instituto Tecnológico de Morelia "José María Morelos y Pavón"</h4>
           <ul className="School">
             <li>
-              Student of Computer Systems Engineering, in the ninth semester.
+              Graduate of Computer Systems Engineering.
             </li>
             <li>
-              Studying a specialty in Software Engineering.
+              My specialty is Software Engineering and mobile development.
             </li>
             <li>
               Affiliation to the Fábrica Académica de Software (FAS).
@@ -97,7 +97,7 @@ function App() {
           <h4>Idioms</h4>
           <ul  className="School">
             <li>Spanish - native tongue</li>
-            <li>English - middle advance (B1)</li>
+            <li>English - middle advance (B2)</li>
           </ul>
 
         </div>
