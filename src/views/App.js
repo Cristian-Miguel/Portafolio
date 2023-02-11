@@ -82,11 +82,11 @@ function App() {
 
         <div className="ContainerCMV">
           <h4 className="CMV"> 
-            Internship at Caja Morelia Valladolid | September 2022 - currently 
+            Internship at Caja Morelia Valladolid | September 2022 - February 2023
           </h4>
           <p className="CMV"> 
           The project that I realize is the Automation of Money Laundering Prevention 
-          Processes, I work as a full-stack developer, and my activities are to create 
+          Processes, I worked as a full-stack developer, and my activities was to create 
           the best solution in scripts in SQL at the technology of SQL server, furthermore 
           the interaction from the back end with .NET and designed interactive 
           interfaces in vue.js.
