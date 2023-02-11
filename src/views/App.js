@@ -60,7 +60,7 @@ function App() {
         <div className="ContainerCharo">
           <h4 className="Charo">
             Project of the Fábrica Académica de Software of the Instituto Tecnológico de Morelia, 
-            System of management about government supports on the town of Charo. | August 2021 - Agust 2022.
+            System of management about government supports on the town of Charo. | August 2021 - August 2022.
           </h4>
           <p className="Charo">
             The project is focused on supporting the people with some help like shoes, 
@@ -89,7 +89,7 @@ function App() {
           Processes, I worked as a full-stack developer, and my activities was to create 
           the best solution in scripts in SQL at the technology of SQL server, furthermore 
           the interaction from the back end with .NET and designed interactive 
-          interfaces in vue.js.
+          interfaces in Vue.js.
         </p>
         </div>
         
