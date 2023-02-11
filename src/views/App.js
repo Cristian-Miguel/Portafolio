@@ -43,9 +43,9 @@ function App() {
             System of management about inventory, and articles published | January 2021 - July 2021
           </h4>
           <p className="Tandex">
-          The project was about a system that may upload and publish products of the 
+          The project was about a system that upload and publish products of the 
           store on the platform WooCommerce, in this case, my team used technologies 
-          such as React, Mysql, Node, and APIs Rest to send it to different platforms, 
+          such as React, Mysql, Node, and APIs Rest to send it to WooCommerce,
           in addition, my role was full stack developer.
           </p>
           <div className="Tandex">
