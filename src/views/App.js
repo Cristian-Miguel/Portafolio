@@ -82,7 +82,7 @@ function App() {
 
         <div className="ContainerCMV">
           <h4 className="CMV"> 
-            Internship at Caja Morelia Valladolid | September 2022 - February 2023
+            Internship at Caja Morelia Valladolid | September 2022 - March 2023
           </h4>
           <p className="CMV"> 
           The project that I realize is the Automation of Money Laundering Prevention 
