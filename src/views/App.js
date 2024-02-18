@@ -37,30 +37,36 @@ function App() {
 
       <section id='SectionExperience'>
         <h2>Experience</h2>
-        <div className="ContainerTandex">
-          <h4 className="Tandex">
-            Project of the Fábrica Académica de Software of the Instituto Tecnológico de Morelia,
-            System of management about inventory, and articles published | January 2021 - July 2021
+
+        <div className="ContainerLionDev">
+          <h4 className="LionDev"> 
+            Liondev | Jr Java Developer | September 2023 - Currently
           </h4>
-          <p className="Tandex">
-          The project was about a system that upload and publish products of the 
-          store on the platform WooCommerce, in this case, my team used technologies 
-          such as React, Mysql, Node, and APIs Rest to send it to WooCommerce,
-          in addition, my role was full stack developer.
+          <p className="LionDev"> 
+          Designed, developed, and supported modules of the new implementation 
+          in the FactureApp and Mi Contador platforms. Gathered the requirements 
+          for the new modules.
+          I used technologies of GWT, GXT, Sencha, Hibernate, and Mysql.
           </p>
-          <div className="Tandex">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill='whitesmoke' width={50} height={50}>
-              {/*<!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --> */}
-              <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/>
-            </svg>
-            <a href="https://www.youtube.com/watch?v=SObRbtKyNCY">Video about the system, in Spanish</a>
-          </div>
         </div>
-        
+
+        <div className="ContainerCMV">
+          <h4 className="CMV"> 
+            Caja Morelia Valladolid | Intern - Full stack developer | September 2022 - March 2023
+          </h4>
+          <p className="CMV"> 
+            The project that I realize is the Automation of Money Laundering Prevention 
+            Processes, I worked as a full-stack developer, and my activities was to create 
+            the best solution in scripts in SQL at the technology of SQL server, furthermore 
+            the interaction from the back end with .NET and designed interactive 
+            interfaces in Vue.js.
+          </p>
+        </div>
+
         <div className="ContainerCharo">
           <h4 className="Charo">
-            Project of the Fábrica Académica de Software of the Instituto Tecnológico de Morelia, 
-            System of management about government supports on the town of Charo. | August 2021 - August 2022.
+            Academic factory of software of Instituto Tecnologico de Morelia | 
+            Degree project - Full stack developer | August 2021 - August 2022.
           </h4>
           <p className="Charo">
             The project is focused on supporting the people with some help like shoes, 
@@ -80,19 +86,25 @@ function App() {
           </div>
         </div>
 
-        <div className="ContainerCMV">
-          <h4 className="CMV"> 
-            Internship at Caja Morelia Valladolid | September 2022 - March 2023
+        <div className="ContainerTandex">
+          <h4 className="Tandex">
+          Academic factory of software of Instituto Tecnologico de Morelia | 
+          School Project - Full stack developer | January 2021 - July 2021
           </h4>
-          <p className="CMV"> 
-          The project that I realize is the Automation of Money Laundering Prevention 
-          Processes, I worked as a full-stack developer, and my activities was to create 
-          the best solution in scripts in SQL at the technology of SQL server, furthermore 
-          the interaction from the back end with .NET and designed interactive 
-          interfaces in Vue.js.
-        </p>
+          <p className="Tandex">
+          The project was about a system that upload and publish products of the 
+          store on the platform WooCommerce, in this case, my team used technologies 
+          such as React, Mysql, Node, and APIs Rest to send it to WooCommerce,
+          in addition, my role was full stack developer.
+          </p>
+          <div className="Tandex">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill='whitesmoke' width={50} height={50}>
+              {/*<!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --> */}
+              <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/>
+            </svg>
+            <a href="https://www.youtube.com/watch?v=SObRbtKyNCY">Video about the system, in Spanish</a>
+          </div>
         </div>
-        
 
       </section>
 
