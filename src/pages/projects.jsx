@@ -1,21 +1,18 @@
 import '../css/Portafolio.css';
 import '../css/Header.css';
-import ImgPorcesos1 from "../images/Dora/Proceso1.png";
-import ImgPorcesos2 from "../images/Dora/Proceso2.png";
-import ImgPorcesos3 from "../images/Dora/Proceso3.png";
-import ImgCminus1 from "../images/CMinus/Cminus1.png";
-import ImgCminus2 from "../images/CMinus/Cminus2.png";
-import ImgCminus3 from "../images/CMinus/Cminus3.png";
-import ImgFlutter1 from "../images/Flutter/Flutter1.png";
-import ImgFlutter2 from "../images/Flutter/Flutter2.png";
-import ImgFlutter4 from "../images/Flutter/Flutter4.png";
-import Header from './Header';
+import ImgPorcesos1 from '../assets/Dora/Proceso1.png';
+import ImgPorcesos2 from "../assets/Dora/Proceso2.png";
+import ImgPorcesos3 from "../assets/Dora/Proceso3.png";
+import ImgCminus1 from "../assets/CMinus/Cminus1.png";
+import ImgCminus2 from "../assets/CMinus/Cminus2.png";
+import ImgCminus3 from "../assets/CMinus/Cminus3.png";
+import ImgFlutter1 from "../assets/Flutter/Flutter1.png";
+import ImgFlutter2 from "../assets/Flutter/Flutter2.png";
+import ImgFlutter4 from "../assets/Flutter/Flutter4.png";
 
 function Portafolio() {
   return (
     <div className="Portafolio">
-
-      <Header/>
 
       <section id="Title">
         <label>Projects</label>
