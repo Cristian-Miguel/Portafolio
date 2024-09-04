@@ -8,7 +8,7 @@ const Education = () => {
             <Box 
                 sx={{
                     height: {
-                        xs: '700px',
+                        xs: '800px',
                         sm: '600px',
                         md: '600px',
                         lg: '700px',
