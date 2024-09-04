@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container, Box, Typography, Link } from '@mui/material';
+import { Container, Box, Typography, Link, Divider } from '@mui/material';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 const MyExperience = () => {
 
@@ -8,12 +9,16 @@ const MyExperience = () => {
             <Box 
                 sx={{
                     height: {
-                        xs: '600px',
-                        sm: '650px',
-                        md: '700px',
-                        lg: '850px',
+                        xs: '925px',
+                        sm: '1000px',
+                        md: '1100px',
+                        lg: '1200px',
                     },
-                    marginTop:'250px'
+                    marginTop:'250px',
+                    display:'flex',
+                    flexDirection:'column',
+                    justifyContent:'center',
+                    alignItems:'center'
                 }}
                 style={{ 
                     background: 'linear-gradient(#000, #072d4c)', 
@@ -38,66 +43,33 @@ const MyExperience = () => {
                     >Experience</Typography>
                 </Container>
 
-                {/* FactureApp */}
+                {/**************** FactureApp ****************/}
                 <Container sx={{
                     color:'white',
                     textAlign: 'center',
                 }}> 
-                    <Container sx={{
-                        color:'white',
-                        textAlign: 'center',
-                        display:'flex',
-                        justifyContent:'space-between'
-                    }}>
-                       <Typography variant="body1" gutterBottom 
-                            sx={{
-                                fontSize: {
-                                    xs: '0.7rem',  
-                                    sm: '1rem', 
-                                    md: '1.2rem',
-                                    lg: '1.5rem',
-                                }
-                            }}
-                        >FactureApp</Typography>
-                        <Typography variant="body1" gutterBottom 
-                            sx={{
-                                fontSize: {
-                                    xs: '0.7rem', 
-                                    sm: '1rem', 
-                                    md: '1.2rem',
-                                    lg: '1.5rem',
-                                }
-                            }}
-                        >Morelia, Mich.</Typography> 
-                    </Container>
+                    <Typography variant="body1" gutterBottom 
+                        sx={{
+                            fontSize: {
+                                xs: '0.7rem',  
+                                sm: '1rem', 
+                                md: '1.2rem',
+                                lg: '1.5rem',
+                            },
+                            fontWeight:'bold'
+                        }}
+                    >FactureApp | Jr Java Developer</Typography>
 
-                    <Container sx={{
-                        color:'white',
-                        textAlign: 'center',
-                        display:'flex',
-                        justifyContent:'space-between'
-                    }}>
-                        <Typography variant="body1" gutterBottom 
-                            sx={{
-                                fontSize: {
-                                    xs: '0.7rem', 
-                                    sm: '1rem', 
-                                    md: '1.2rem',
-                                    lg: '1.5rem',
-                                }
-                            }}
-                        >Jr Java Developer</Typography>
-                        <Typography variant="body1" gutterBottom 
-                            sx={{
-                                fontSize: {
-                                    xs: '0.7rem', 
-                                    sm: '1rem', 
-                                    md: '1.2rem',
-                                    lg: '1.5rem',
-                                }
-                            }}
-                        >September 2023 - Currently</Typography>
-                    </Container>
+                    <Typography variant="body1" gutterBottom 
+                        sx={{
+                            fontSize: {
+                                xs: '0.7rem', 
+                                sm: '1rem', 
+                                md: '1.2rem',
+                                lg: '1.5rem',
+                            }
+                        }}
+                    >September 2023 - Currently | Morelia, Mich.</Typography>
                     
                     <Typography variant="h2" gutterBottom 
                         sx={{
@@ -109,74 +81,50 @@ const MyExperience = () => {
                             }
                         }}
                     >
-                        Designed, developed, and supported modules of the new implementation 
-                        in the FactureApp and Mi Contador platforms. Gathered the requirements 
-                        for the new modules.
-                        I used technologies of GWT, GXT, Sencha, Hibernate, and Mysql.
+                       At FactureApp Inc., from September 2023 to the present, I have led the development, design, 
+                       and management of new software modules, while also refactoring and optimizing existing ones. 
+                       A key project involved upgrading the "Carta Porte" module from version 3.0 to 3.1, ensuring 
+                       compliance with the latest SAT requirements by implementing all published changes. This included 
+                       updating the frontend, enhancing error handling, validating required fields, and ensuring accurate 
+                        XML generation and digital signature for SAT submissions. I also adapted the platform's API to 
+                        the new specifications using Servlet, RESTEasy, and JBoss for endpoint development. My work 
+                        included extensive testing of endpoints using Postman, data manipulation with Hibernate, and 
+                        generating diverse PDF and Excel reports through JasperSoft and Apache POI. Additionally, I 
+                        translated client requirements into actionable development tasks and managed the project workflow 
+                        using the Kanban framework, reducing development response times by 20%. I also developed stored 
+                        procedures in MySQL to handle data duplication efficiently.
                     </Typography>
+
+                    <Divider variant="middle" sx={{backgroundColor:'white',  marginTop:'17px', marginBottom:'17px' }} />
+
                 </Container>
                 
-                {/* Caja Morelia Valladolid */}
+                {/**************** Caja Morelia Valladolid ****************/}
                 <Container sx={{
                     color:'white',
                     textAlign: 'center',
-                    marginTop: '20px'
                 }}> 
-                    <Container sx={{
-                        color:'white',
-                        textAlign: 'center',
-                        display:'flex',
-                        justifyContent:'space-between'
-                    }}>
-                       <Typography variant="body1" gutterBottom 
-                            sx={{
-                                fontSize: {
-                                    xs: '0.7rem',  
-                                    sm: '1rem', 
-                                    md: '1.2rem',
-                                    lg: '1.5rem',
-                                }
-                            }}
-                        >Caja Morelia Valladolid</Typography>
-                        <Typography variant="body1" gutterBottom 
-                            sx={{
-                                fontSize: {
-                                    xs: '0.7rem', 
-                                    sm: '1rem', 
-                                    md: '1.2rem',
-                                    lg: '1.5rem',
-                                }
-                            }}
-                        >Morelia, Mich.</Typography> 
-                    </Container>
-
-                    <Container sx={{
-                        color:'white',
-                        textAlign: 'center',
-                        display:'flex',
-                        justifyContent:'space-between'
-                    }}>
-                        <Typography variant="body1" gutterBottom 
-                            sx={{
-                                fontSize: {
-                                    xs: '0.7rem', 
-                                    sm: '1rem', 
-                                    md: '1.2rem',
-                                    lg: '1.5rem',
-                                }
-                            }}
-                        >Intern - Full stack developer</Typography>
-                        <Typography variant="body1" gutterBottom 
-                            sx={{
-                                fontSize: {
-                                    xs: '0.7rem', 
-                                    sm: '1rem', 
-                                    md: '1.2rem',
-                                    lg: '1.5rem',
-                                }
-                            }}
-                        >September 2022 - March 2023</Typography>
-                    </Container>
+                    <Typography variant="body1" gutterBottom 
+                        sx={{
+                            fontSize: {
+                                xs: '0.7rem',  
+                                sm: '1rem', 
+                                md: '1.2rem',
+                                lg: '1.5rem',
+                            },
+                            fontWeight:'bold'
+                        }}
+                    >Caja Morelia Valladolid | Full stack intern</Typography>
+                    <Typography variant="body1" gutterBottom 
+                        sx={{
+                            fontSize: {
+                                xs: '0.7rem', 
+                                sm: '1rem', 
+                                md: '1.2rem',
+                                lg: '1.5rem',
+                            }
+                        }}
+                    >September 2022 - March 2023 | Morelia, Mich.</Typography> 
                     
                     <Typography variant="h2" gutterBottom 
                         sx={{
@@ -188,26 +136,32 @@ const MyExperience = () => {
                             }
                         }}
                     >
-                        The project that I realize is the Automation of Money Laundering Prevention 
-                        Processes, I worked as a full-stack developer, and my activities was to create 
-                        the best solution in scripts in SQL at the technology of SQL server, furthermore 
-                        the interaction from the back end with .NET and designed interactive 
-                        interfaces in Vue.js.
+                        At Caja Morelia Valladolid, I developed, designed, and managed a new application to enhance 
+                        the bank's anti-money laundering processes. This application automated the management of critical 
+                        lists, including blacklisted individuals, politically exposed persons, and the OFAC list. The 
+                        previous manual process for updating these lists could take up to a day, posing significant legal 
+                        risks due to delays. The application I built streamlined this process, ensuring that sensitive data 
+                        in the database was updated promptly to maintain compliance and prevent unauthorized individuals 
+                        from opening bank accounts. <br/>
+                        I utilized SCRUM as an agile methodology method, Vue.js with Vuetify to create a user-friendly front 
+                        end and .NET with C# and SQL Server for the backend, implementing efficient stored procedures. The 
+                        app automated the extraction of information from Excel and text files and converted JSON data to XML, 
+                        as required by SQL Server for data processing. It also enabled the platform to display users matching 
+                        any of these lists, allowing them to be marked for removal or flagged with an expiration date to 
+                        ensure ongoing compliance. Additionally, the application provided comprehensive access management 
+                        controls, improving security and user oversight. This solution reduced the response time for list 
+                        updates by 15% compared to the original manual process.
                     </Typography>
+
+                    <Divider variant="middle" sx={{backgroundColor:'white',  marginTop:'17px', marginBottom:'17px' }} />
+
                 </Container>
 
-                {/* Charo */}
+                {/**************** Charo ****************/}
                 <Container sx={{
                     color:'white',
-                    textAlign: 'center',
-                     marginTop: '20px'
+                    textAlign: 'center'
                 }}> 
-                    <Container sx={{
-                        color:'white',
-                        textAlign: 'center',
-                        display:'flex',
-                        justifyContent:'space-between'
-                    }}>
                        <Typography variant="body1" gutterBottom 
                             sx={{
                                 fontSize: {
@@ -215,9 +169,10 @@ const MyExperience = () => {
                                     sm: '1rem', 
                                     md: '1.2rem',
                                     lg: '1.5rem',
-                                }
+                                },
+                                fontWeight:'bold'
                             }}
-                        > Academic factory of software of Instituto Tecnologico de Morelia - Charo</Typography>
+                        >Academic factory of software - Charo | Degree project - Full stack developer</Typography>
                         <Typography variant="body1" gutterBottom 
                             sx={{
                                 fontSize: {
@@ -227,36 +182,7 @@ const MyExperience = () => {
                                     lg: '1.5rem',
                                 }
                             }}
-                        >Morelia, Mich.</Typography> 
-                    </Container>
-
-                    <Container sx={{
-                        color:'white',
-                        textAlign: 'center',
-                        display:'flex',
-                        justifyContent:'space-between'
-                    }}>
-                        <Typography variant="body1" gutterBottom 
-                            sx={{
-                                fontSize: {
-                                    xs: '0.7rem', 
-                                    sm: '1rem', 
-                                    md: '1.2rem',
-                                    lg: '1.5rem',
-                                }
-                            }}
-                        >Degree project - Full stack developer</Typography>
-                        <Typography variant="body1" gutterBottom 
-                            sx={{
-                                fontSize: {
-                                    xs: '0.7rem', 
-                                    sm: '1rem', 
-                                    md: '1.2rem',
-                                    lg: '1.5rem',
-                                }
-                            }}
-                        >August 2021 - August 2022</Typography>
-                    </Container>
+                        >August 2021 - August 2022 | Morelia, Mich.</Typography>
                     
                     <Typography variant="h2" gutterBottom 
                         sx={{
@@ -268,14 +194,50 @@ const MyExperience = () => {
                             }
                         }}
                     >
-                        The project is focused on supporting the people with some help like shoes, 
-                        uniforms, medicines, food pantries, etcetera. However they need registration 
-                        in the system with all personal data, and also they can register a group to 
-                        get some help. Furthermore, they can upload new support for the people, and 
-                        they must sign up the people who work in the system,  they must actualize and 
-                        check the support who could be accepted or rejected. This system is being 
-                        developed in Laravel 8 and PHP 7 and my role was full stack developer.
+                        For my engineering degree project, my teammates and I developed a web application to manage government support programs, 
+                        digitizing the entire process and reducing the manual effort by 80%. The application enabled the registration 
+                        of citizens, selection of the appropriate support programs, and streamlined approval workflows across 
+                        various authorities. Additionally, it included an administrator role to manage the application, log changes 
+                        for each support case, and allow for the creation and updating of support programs. <br/>
+                        To build the application, I used SCRUM, Bootstrap, CSS, HTML, Laravel, PHP, and MySQL. I tested the application 
+                        extensively using PHPUnit, SonarCloud, and Mockery, which helped reduce the response time by 30% in the final product. 
+                        I also utilized Git and GitHub for version control and deployed the web application and database on DigitalOcean.
                     </Typography>
+
+                    <Container sx={{
+                        display:'flex',
+                        justifyContent:'center',
+                        alignItems:'center'
+                    }}>
+                        <YouTubeIcon sx={{ 
+                            width:{
+                                xs: '20px',
+                                sm: '30px',
+                                md: '40px',
+                                lg: '50px',
+                            },
+                            height:{
+                                xs: '20px',
+                                sm: '30px',
+                                md: '40px',
+                                lg: '50px',
+                            }
+                        }} />
+                        <Link 
+                            sx={{
+                                fontSize: {
+                                    xs: '0.55rem', 
+                                    sm: '0.8rem', 
+                                    md: '1rem',
+                                    lg: '1.2rem',
+                                }
+                            }}
+                            style={{ color:'white', textDecoration:'none' }} 
+                            href='https://www.youtube.com/watch?v=dgqLWqBqUCY'
+                        >
+                            Video about the system, in Spanish
+                        </Link>
+                    </Container>
                 </Container>
 
             </Box>

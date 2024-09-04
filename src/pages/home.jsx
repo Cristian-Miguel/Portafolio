@@ -30,10 +30,10 @@ const Home = () => {
                  <Typography variant="h1" gutterBottom 
                     sx={{
                         fontSize: {
-                            xs: '1.5rem', // Font size for extra-small screens (mobile)
-                            sm: '2.5rem', // Font size for small screens (tablet)
-                            md: '3.5rem', // Font size for medium screens (laptops)
-                            lg: '4.5rem', // Font size for large screens (desktops)
+                            xs: '1.5rem',
+                            sm: '2.5rem',
+                            md: '3.5rem',
+                            lg: '4.5rem',
                         }
                     }}
                  >Hello! I'm Cristian Miguel a Computer System Engineer</Typography>  
@@ -43,8 +43,7 @@ const Home = () => {
 
             <MyExperience/>
 
-            {/* 
-            <Education/> */}
+            <Education/>
 
         </>
     );

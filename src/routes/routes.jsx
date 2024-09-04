@@ -9,8 +9,8 @@ function PagesRoutes() {
         <>
             <Header/>
             <Routes>
-                <Route exact path="/" element={<Home/>}/>
-                <Route exact path="/proyects" element={<Projects/>}/>
+                <Route exact path="/" element={ <Home/> }/>
+                <Route exact path="/projects" element={ <Projects/> }/>
             </Routes>
         </>
     );
