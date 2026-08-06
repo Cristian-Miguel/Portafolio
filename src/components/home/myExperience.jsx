@@ -3,275 +3,257 @@ import { Container, Box, Typography, Link, Divider } from '@mui/material';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 
 const MyExperience = () => {
-
     return (
-        <>
-            <Box 
-                sx={{
-                    height: {
-                        xs: '925px',
-                        sm: '1000px',
-                        md: '1100px',
-                        lg: '1200px',
-                    },
-                    marginTop:'250px',
-                    display:'flex',
-                    flexDirection:'column',
-                    justifyContent:'center',
-                    alignItems:'center'
-                }}
-                style={{ 
-                    background: 'linear-gradient(#000, #072d4c)', 
-                    width: '100%',
-                    padding: '20px 2% 20px 2%',
-                    
-                }}
-            >
-                <Container sx={{
-                    color:'white',
-                    textAlign: 'center',
-                }}>
-                    <Typography variant="h2" gutterBottom 
-                        sx={{
-                            fontSize: {
-                                xs: '1rem', 
-                                sm: '2rem', 
-                                md: '3rem',
-                                lg: '4rem',
-                            }
-                        }}
-                    >Experience</Typography>
-                </Container>
+        <Box 
+            sx={{
+                width: '100%',
+                marginTop: '150px',
+                padding: { xs: '40px 5%', md: '60px 10%' },
+                display: 'flex',
+                flexDirection: 'column',
+                justify: 'center',
+                alignItems: 'center',
+                background: 'linear-gradient(#000, #072d4c)',
+                boxSizing: 'border-box'
+            }}
+        >
+            {/* Título Principal */}
+            <Container sx={{ color: 'white', textAlign: 'center', mb: 4 }}>
+                <Typography 
+                    variant="h2" 
+                    gutterBottom 
+                    sx={{
+                        fontSize: { xs: '2rem', sm: '3rem', md: '4rem' },
+                        fontWeight: 'bold'
+                    }}
+                >
+                    Experience
+                </Typography>
+            </Container>
 
-                {/**************** FactureApp ****************/}
-                <Container sx={{
-                    color:'white',
-                    textAlign: 'center',
-                }}> 
-                    <Typography variant="body1" gutterBottom 
-                        sx={{
-                            fontSize: {
-                                xs: '0.7rem',  
-                                sm: '1rem', 
-                                md: '1.2rem',
-                                lg: '1.5rem',
-                            },
-                            fontWeight:'bold'
-                        }}
-                    >FactureApp | Jr Java Developer</Typography>
+            {/**************** Secretaría de Educación Pública ****************/}
+            <Container sx={{ color: 'white', textAlign: 'center' }}> 
+                <Typography 
+                    variant="body1" 
+                    gutterBottom 
+                    sx={{
+                        fontSize: { xs: '1rem', sm: '1.2rem', md: '1.5rem' },
+                        fontWeight: 'bold'
+                    }}
+                >
+                    Secretaría de Educación Pública | Software Analyst / Developer
+                </Typography>
 
-                    <Typography variant="body1" gutterBottom 
-                        sx={{
-                            fontSize: {
-                                xs: '0.7rem', 
-                                sm: '1rem', 
-                                md: '1.2rem',
-                                lg: '1.5rem',
-                            }
-                        }}
-                    >September 2023 - Currently | Morelia, Mich.</Typography>
-                    
-                    <Typography variant="h2" gutterBottom 
-                        sx={{
-                            fontSize: {
-                                xs: '0.55rem', 
-                                sm: '0.8rem', 
-                                md: '1rem',
-                                lg: '1.2rem',
-                            }
-                        }}
-                    >
-                       At FactureApp Inc., from September 2023 to the present, I have led the development, design, 
-                       and management of new software modules, while also refactoring and optimizing existing ones. 
-                       A key project involved upgrading the "Carta Porte" module from version 3.0 to 3.1, ensuring 
-                       compliance with the latest SAT requirements by implementing all published changes. This included 
-                       updating the frontend, enhancing error handling, validating required fields, and ensuring accurate 
-                        XML generation and digital signature for SAT submissions. I also adapted the platform's API to 
-                        the new specifications using Servlet, RESTEasy, and JBoss for endpoint development. My work 
-                        included extensive testing of endpoints using Postman, data manipulation with Hibernate, and 
-                        generating diverse PDF and Excel reports through JasperSoft and Apache POI. Additionally, I 
-                        translated client requirements into actionable development tasks and managed the project workflow 
-                        using the Kanban framework, reducing development response times by 20%. I also developed stored 
-                        procedures in MySQL to handle data duplication efficiently.
-                    </Typography>
-
-                    <Divider variant="middle" sx={{backgroundColor:'white',  marginTop:'17px', marginBottom:'17px' }} />
-
-                </Container>
+                <Typography 
+                    variant="body1" 
+                    gutterBottom 
+                    sx={{ fontSize: { xs: '0.8rem', sm: '1rem', md: '1.2rem' }, mb: 2 }}
+                >
+                    May 2025 - Present | Morelia, Mich.
+                </Typography>
                 
-                {/**************** Caja Morelia Valladolid ****************/}
-                <Container sx={{
-                    color:'white',
-                    textAlign: 'center',
-                }}> 
-                    <Typography variant="body1" gutterBottom 
-                        sx={{
-                            fontSize: {
-                                xs: '0.7rem',  
-                                sm: '1rem', 
-                                md: '1.2rem',
-                                lg: '1.5rem',
-                            },
-                            fontWeight:'bold'
-                        }}
-                    >Caja Morelia Valladolid | Full stack intern</Typography>
-                    <Typography variant="body1" gutterBottom 
-                        sx={{
-                            fontSize: {
-                                xs: '0.7rem', 
-                                sm: '1rem', 
-                                md: '1.2rem',
-                                lg: '1.5rem',
-                            }
-                        }}
-                    >September 2022 - March 2023 | Morelia, Mich.</Typography> 
-                    
-                    <Typography variant="h2" gutterBottom 
-                        sx={{
-                            fontSize: {
-                                xs: '0.55rem', 
-                                sm: '0.8rem', 
-                                md: '1rem',
-                                lg: '1.2rem',
-                            }
-                        }}
+                <Typography 
+                    variant="body1" 
+                    gutterBottom 
+                    sx={{
+                        fontSize: { xs: '0.75rem', sm: '0.9rem', md: '1.1rem' },
+                        textAlign: 'justify',
+                        lineHeight: 1.6
+                    }}
+                >
+                    Designed and delivered web and desktop applications to optimize administrative and educational processes. 
+                    Automated mass data processing (payroll) using Python scripts for PDF, Excel, and CSV files, and implemented 
+                    OCR solutions for automated data extraction and analysis from scanned documentation. Maintained backend systems 
+                    using PHP (CodeIgniter), JavaScript, MySQL, and SQLite managed under Git.
+                </Typography>
+
+                <Divider variant="middle" sx={{ backgroundColor: 'white', my: 4 }} />
+            </Container>
+
+            {/**************** FactureApp ****************/}
+            <Container sx={{ color: 'white', textAlign: 'center' }}> 
+                <Typography 
+                    variant="body1" 
+                    gutterBottom 
+                    sx={{
+                        fontSize: { xs: '1rem', sm: '1.2rem', md: '1.5rem' },
+                        fontWeight: 'bold'
+                    }}
+                >
+                    FactureApp | Jr Full Stack Developer & Jr Java Developer
+                </Typography>
+
+                <Typography 
+                    variant="body1" 
+                    gutterBottom 
+                    sx={{ fontSize: { xs: '0.8rem', sm: '1rem', md: '1.2rem' }, mb: 2 }}
+                >
+                    September 2023 - May 2025 | Morelia, Mich.
+                </Typography>
+                
+                <Typography 
+                    variant="body1" 
+                    gutterBottom 
+                    sx={{
+                        fontSize: { xs: '0.75rem', sm: '0.9rem', md: '1.1rem' },
+                        textAlign: 'justify',
+                        lineHeight: 1.6
+                    }}
+                >
+                    At FactureApp Inc., I developed new modules for mobile and web applications using Flutter, while continuously 
+                    maintaining existing features and publishing updates to the App Store (iOS) and Play Store (Android). Managed API 
+                    solutions using Java, Servlet, RESTEasy, and JBoss, significantly reducing response times and error rates. Upgraded 
+                    the "Carta Porte" module from version 3.0 to 3.1 for SAT compliance, enhancing XML generation, digital signatures, 
+                    and error handling. Built internal beta versions for QA bug testing, generated PDF and Excel reports using JasperSoft 
+                    and Apache POI, created stored procedures in MySQL for efficient data handling, and collaborated in an Agile 
+                    (Kanban) environment to cut development response times by 20%.
+                </Typography>
+
+                <Divider variant="middle" sx={{ backgroundColor: 'white', my: 4 }} />
+            </Container>
+            
+            {/**************** Caja Morelia Valladolid ****************/}
+            <Container sx={{ color: 'white', textAlign: 'center' }}> 
+                <Typography 
+                    variant="body1" 
+                    gutterBottom 
+                    sx={{
+                        fontSize: { xs: '1rem', sm: '1.2rem', md: '1.5rem' },
+                        fontWeight: 'bold'
+                    }}
+                >
+                    Caja Morelia Valladolid | Full Stack Intern
+                </Typography>
+
+                <Typography 
+                    variant="body1" 
+                    gutterBottom 
+                    sx={{ fontSize: { xs: '0.8rem', sm: '1rem', md: '1.2rem' }, mb: 2 }}
+                >
+                    September 2022 - March 2023 | Morelia, Mich.
+                </Typography> 
+                
+                <Typography 
+                    variant="body1" 
+                    gutterBottom 
+                    sx={{
+                        fontSize: { xs: '0.75rem', sm: '0.9rem', md: '1.1rem' },
+                        textAlign: 'justify',
+                        lineHeight: 1.6
+                    }}
+                >
+                    At Caja Morelia Valladolid, I developed, designed, and managed a new application to enhance the bank's anti-money 
+                    laundering processes. This application automated the management of critical lists, including blacklisted individuals, 
+                    politically exposed persons, and the OFAC list. Utilizing SCRUM, Vue.js with Vuetify, .NET with C#, and SQL Server, 
+                    I automated the extraction of data from Excel/TXT files and JSON-to-XML processing. This solution enabled ongoing 
+                    compliance tracking and user role access management, reducing response times for list updates by 15% compared to 
+                    the previous manual process.
+                </Typography>
+
+                <Divider variant="middle" sx={{ backgroundColor: 'white', my: 4 }} />
+            </Container>
+
+            {/**************** Academic Software Factory - Charo ****************/}
+            <Container sx={{ color: 'white', textAlign: 'center' }}> 
+                <Typography 
+                    variant="body1" 
+                    gutterBottom 
+                    sx={{
+                        fontSize: { xs: '1rem', sm: '1.2rem', md: '1.5rem' },
+                        fontWeight: 'bold'
+                    }}
+                >
+                    Academic Software Factory - Charo Government | Full Stack Developer (Degree Project)
+                </Typography>
+
+                <Typography 
+                    variant="body1" 
+                    gutterBottom 
+                    sx={{ fontSize: { xs: '0.8rem', sm: '1rem', md: '1.2rem' }, mb: 2 }}
+                >
+                    August 2021 - August 2022 | Morelia, Mich.
+                </Typography>
+                
+                <Typography 
+                    variant="body1" 
+                    gutterBottom 
+                    sx={{
+                        fontSize: { xs: '0.75rem', sm: '0.9rem', md: '1.1rem' },
+                        textAlign: 'justify',
+                        lineHeight: 1.6
+                    }}
+                >
+                    Developed a scalable web application to digitize government support program workflows, reducing manual effort by 80%. 
+                    Built using SCRUM, Bootstrap, Laravel, PHP, and MySQL. Enhanced system performance by 30% through rigorous testing 
+                    with PHPUnit, SonarCloud, and Mockery. Managed version control with Git/GitHub and deployed the platform and database 
+                    on DigitalOcean.
+                </Typography>
+
+                <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', mt: 2 }}>
+                    <YouTubeIcon sx={{ fontSize: { xs: '20px', sm: '30px', md: '40px' }, mr: 1 }} />
+                    <Link 
+                        sx={{ fontSize: { xs: '0.75rem', sm: '0.9rem', md: '1rem' } }}
+                        style={{ color: 'white', textDecoration: 'none' }} 
+                        href='https://www.youtube.com/watch?v=dgqLWqBqUCY'
+                        target="_blank"
+                        rel="noopener noreferrer"
                     >
-                        At Caja Morelia Valladolid, I developed, designed, and managed a new application to enhance 
-                        the bank's anti-money laundering processes. This application automated the management of critical 
-                        lists, including blacklisted individuals, politically exposed persons, and the OFAC list. The 
-                        previous manual process for updating these lists could take up to a day, posing significant legal 
-                        risks due to delays. The application I built streamlined this process, ensuring that sensitive data 
-                        in the database was updated promptly to maintain compliance and prevent unauthorized individuals 
-                        from opening bank accounts. <br/>
-                        I utilized SCRUM as an agile methodology method, Vue.js with Vuetify to create a user-friendly front 
-                        end and .NET with C# and SQL Server for the backend, implementing efficient stored procedures. The 
-                        app automated the extraction of information from Excel and text files and converted JSON data to XML, 
-                        as required by SQL Server for data processing. It also enabled the platform to display users matching 
-                        any of these lists, allowing them to be marked for removal or flagged with an expiration date to 
-                        ensure ongoing compliance. Additionally, the application provided comprehensive access management 
-                        controls, improving security and user oversight. This solution reduced the response time for list 
-                        updates by 15% compared to the original manual process.
-                    </Typography>
+                        Video about the system, in Spanish
+                    </Link>
+                </Box>
 
-                    <Divider variant="middle" sx={{backgroundColor:'white',  marginTop:'17px', marginBottom:'17px' }} />
+                <Divider variant="middle" sx={{ backgroundColor: 'white', my: 4 }} />
+            </Container>
 
-                </Container>
+            {/**************** Academic Software Factory - Tandex ****************/}
+            <Container sx={{ color: 'white', textAlign: 'center' }}> 
+                <Typography 
+                    variant="body1" 
+                    gutterBottom 
+                    sx={{
+                        fontSize: { xs: '1rem', sm: '1.2rem', md: '1.5rem' },
+                        fontWeight: 'bold'
+                    }}
+                >
+                    Academic Software Factory (ITM) | Full Stack Developer (School Project)
+                </Typography>
 
-                {/**************** Charo ****************/}
-                <Container sx={{
-                    color:'white',
-                    textAlign: 'center'
-                }}> 
-                       <Typography variant="body1" gutterBottom 
-                            sx={{
-                                fontSize: {
-                                    xs: '0.7rem',  
-                                    sm: '1rem', 
-                                    md: '1.2rem',
-                                    lg: '1.5rem',
-                                },
-                                fontWeight:'bold'
-                            }}
-                        >Academic factory of software - Charo | Degree project - Full stack developer</Typography>
-                        <Typography variant="body1" gutterBottom 
-                            sx={{
-                                fontSize: {
-                                    xs: '0.7rem', 
-                                    sm: '1rem', 
-                                    md: '1.2rem',
-                                    lg: '1.5rem',
-                                }
-                            }}
-                        >August 2021 - August 2022 | Morelia, Mich.</Typography>
-                    
-                    <Typography variant="h2" gutterBottom 
-                        sx={{
-                            fontSize: {
-                                xs: '0.55rem', 
-                                sm: '0.8rem', 
-                                md: '1rem',
-                                lg: '1.2rem',
-                            }
-                        }}
+                <Typography 
+                    variant="body1" 
+                    gutterBottom 
+                    sx={{ fontSize: { xs: '0.8rem', sm: '1rem', md: '1.2rem' }, mb: 2 }}
+                >
+                    January 2021 - July 2021 | Morelia, Mich.
+                </Typography>
+                
+                <Typography 
+                    variant="body1" 
+                    gutterBottom 
+                    sx={{
+                        fontSize: { xs: '0.75rem', sm: '0.9rem', md: '1.1rem' },
+                        textAlign: 'justify',
+                        lineHeight: 1.6
+                    }}
+                >
+                    Developed a web platform to automate product uploading and publishing to WooCommerce stores. 
+                    Utilized React, Node.js, MySQL, and REST APIs to establish seamless communication with WooCommerce.
+                </Typography>
+
+                <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', mt: 2 }}>
+                    <YouTubeIcon sx={{ fontSize: { xs: '20px', sm: '30px', md: '40px' }, mr: 1 }} />
+                    <Link 
+                        sx={{ fontSize: { xs: '0.75rem', sm: '0.9rem', md: '1rem' } }}
+                        style={{ color: 'white', textDecoration: 'none' }} 
+                        href='https://www.youtube.com/watch?v=SObRbtKyNCY'
+                        target="_blank"
+                        rel="noopener noreferrer"
                     >
-                        For my engineering degree project, my teammates and I developed a web application to manage government support programs, 
-                        digitizing the entire process and reducing the manual effort by 80%. The application enabled the registration 
-                        of citizens, selection of the appropriate support programs, and streamlined approval workflows across 
-                        various authorities. Additionally, it included an administrator role to manage the application, log changes 
-                        for each support case, and allow for the creation and updating of support programs. <br/>
-                        To build the application, I used SCRUM, Bootstrap, CSS, HTML, Laravel, PHP, and MySQL. I tested the application 
-                        extensively using PHPUnit, SonarCloud, and Mockery, which helped reduce the response time by 30% in the final product. 
-                        I also utilized Git and GitHub for version control and deployed the web application and database on DigitalOcean.
-                    </Typography>
-
-                    <Container sx={{
-                        display:'flex',
-                        justifyContent:'center',
-                        alignItems:'center'
-                    }}>
-                        <YouTubeIcon sx={{ 
-                            width:{
-                                xs: '20px',
-                                sm: '30px',
-                                md: '40px',
-                                lg: '50px',
-                            },
-                            height:{
-                                xs: '20px',
-                                sm: '30px',
-                                md: '40px',
-                                lg: '50px',
-                            }
-                        }} />
-                        <Link 
-                            sx={{
-                                fontSize: {
-                                    xs: '0.55rem', 
-                                    sm: '0.8rem', 
-                                    md: '1rem',
-                                    lg: '1.2rem',
-                                }
-                            }}
-                            style={{ color:'white', textDecoration:'none' }} 
-                            href='https://www.youtube.com/watch?v=dgqLWqBqUCY'
-                        >
-                            Video about the system, in Spanish
-                        </Link>
-                    </Container>
-                </Container>
-
-            </Box>
-            {/* 
-                <div className="Charo">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill='whitesmoke' width={50} height={50}>
-                    <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/>
-                    </svg>
-                    <a href="https://www.youtube.com/watch?v=dgqLWqBqUCY">Video about the system, in Spanish</a>
-                </div>
-                </div>
-
-                <div className="ContainerTandex">
-                <h4 className="Tandex">
-                Academic factory of software of Instituto Tecnologico de Morelia | 
-                School Project - Full stack developer | January 2021 - July 2021
-                </h4>
-                <p className="Tandex">
-                The project was about a system that upload and publish products of the 
-                store on the platform WooCommerce, in this case, my team used technologies 
-                such as React, Mysql, Node, and APIs Rest to send it to WooCommerce,
-                in addition, my role was full stack developer.
-                </p>
-                <div className="Tandex">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill='whitesmoke' width={50} height={50}>
-                    <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/>
-                    </svg>
-                    <a href="https://www.youtube.com/watch?v=SObRbtKyNCY">Video about the system, in Spanish</a>
-                </div>
-                </div>
-
-            </section> */}
-        </>
+                        Video about the system, in Spanish
+                    </Link>
+                </Box>
+            </Container>
+        </Box>
     );
-}
+};
 
 export default MyExperience;

@@ -5,171 +5,114 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 const AboutMe = () => {
-
     return (
-        <>  
-            <Box 
+        <Box 
+            sx={{
+                width: '100%',
+                minHeight: '100vh',
+                background: 'linear-gradient(#000, #072d4c)', 
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'center',
+                alignItems: 'center',
+                py: { xs: 6, sm: 8, md: 10 },
+                px: { xs: 2, sm: 4, md: 6 },
+                boxSizing: 'border-box'
+            }}
+        >
+            {/* Título Principal */}
+            <Container sx={{ color: 'white', textAlign: 'center', mb: 4 }}>
+                <Typography 
+                    variant="h2" 
+                    gutterBottom 
+                    sx={{
+                        fontSize: { xs: '2rem', sm: '3rem', md: '4rem' },
+                        fontWeight: 'bold'
+                    }}
+                >
+                    About me
+                </Typography>
+            </Container>
+            
+            {/* Sección Avatar y Biografía */}
+            <Container 
                 sx={{
-                    height: {
-                        xs: '500px',
-                        sm: '550px',
-                        md: '600px',
-                        lg: '650px',
-                    },
-                }}
-                style={{ 
-                    background: 'linear-gradient(#000, #072d4c)', 
-                    width: '100%',
-                    margin: 0,
-                    padding: '20px'
+                    color: 'white',
+                    display: 'flex',
+                    textAlign: 'center',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    flexDirection: { xs: 'column', md: 'row' },
+                    mb: 6,
+                    gap: { xs: 3, md: 5 }
                 }}
             >
-                <Container sx={{
-                    color:'white',
-                    textAlign: 'center',
-                }}>
-                    <Typography variant="h2" gutterBottom 
-                        sx={{
-                            fontSize: {
-                                xs: '1rem', 
-                                sm: '2rem', 
-                                md: '3rem',
-                                lg: '4rem',
-                            }
-                        }}
-                    >About me</Typography>
-                </Container>
+                <Avatar 
+                    alt="Cristian Miguel Marín Barrera" 
+                    src={MyPhoto} 
+                    sx={{
+                        width: { xs: '140px', sm: '180px', md: '240px', lg: '280px' },
+                        height: { xs: '140px', sm: '180px', md: '240px', lg: '280px' },
+                        boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.5)'
+                    }}
+                />
                 
-                <Container sx={{
-                    color:'white',
-                    display:'flex',
-                    height:'350px',
-                    textAlign: 'center',
-                    justifyContent:'center',
-                    alignItems:'center',
-                    flexDirection:{
-                        xs: 'column',
-                        sm: 'row',
-                        md: 'row',
-                        lg: 'row',
-                    },
-                    marginBottom:'20px',
-                    marginTop:'20px'
-                }}>
-                    <Avatar alt="Photo of me" src={ MyPhoto } sx={{
-                        width:{
-                            xs: '100px',
-                            sm: '100px',
-                            md: '200px',
-                            lg: '300px',
-                        },
-                        height:{
-                            xs: '100px',
-                            sm: '100px',
-                            md: '200px',
-                            lg: '300px',
-                        },
-                        marginBottom:{
-                            xs:'10px'
-                        }
-                    }}/>
-                    <Typography variant="body1" gutterBottom 
-                        sx={{
-                            fontSize: {
-                                xs: '0.7rem', // Font size for extra-small screens (mobile)
-                                sm: '0.8rem', // Font size for small screens (tablet)
-                                md: '1rem', // Font size for medium screens (laptops)
-                                lg: '1.5rem', // Font size for large screens (desktops)
-                            },
-                            marginLeft:'5%',
-                            marginBottom:0
-                        }}
+                <Typography 
+                    variant="body1" 
+                    sx={{
+                        fontSize: { xs: '0.85rem', sm: '1rem', md: '1.15rem', lg: '1.25rem' },
+                        textAlign: { xs: 'center', md: 'left' },
+                        maxWidth: '800px',
+                        lineHeight: 1.7
+                    }}
+                >
+                    Results-driven Software Engineer with full-stack experience in <strong>Java, JavaScript, Python, and SQL</strong>. 
+                    Graduated in Computer Systems Engineering from Instituto Tecnológico de Morelia with a specialization in 
+                    Software Engineering and Mobile Development. Skilled in designing component-level backend features, managing complex 
+                    data models, and optimizing database performance within Agile (Scrum/Kanban) environments. Focused on quality-focused 
+                    delivery, automated testing, and building scalable software solutions across web and mobile platforms.
+                </Typography>
+            </Container>
+
+            {/* Enlaces a Redes Sociales */}
+            <Container 
+                sx={{
+                    color: 'white',
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    flexDirection: { xs: 'column', sm: 'row' },
+                    gap: { xs: 2, sm: 4 }
+                }}
+            >
+                <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                    <LinkedInIcon sx={{ fontSize: { xs: '24px', sm: '32px', md: '40px' } }} />
+                    <Link 
+                        sx={{ fontSize: { xs: '0.9rem', sm: '1rem', md: '1.1rem' } }}
+                        style={{ color: 'white', textDecoration: 'none' }} 
+                        href='https://www.linkedin.com/in/cristian-miguel-marin-barrera-936803200/'
+                        target="_blank"
+                        rel="noopener noreferrer"
                     >
-                        I am a highly motivated Computer Systems Engineering graduate from the Instituto Tecnológico de Morelia with a
-                        specialization in Software Engineering and Mobile Development. With extensive experience as a full-stack
-                        developer, I have successfully developed and deployed applications utilizing a wide range of technologies. My
-                        proactive approach, positive attitude, and commitment to continuous learning make me a valuable team player ready
-                        to take on new challenges.
-                    </Typography>
-                </Container>
+                        My profile
+                    </Link>
+                </Box>
 
-                <Container sx={{
-                    color:'white',
-                    textAlign: 'center',
-                    display:'flex'
-                }}>
-                    <Container sx={{
-                        display:'flex',
-                        justifyContent:'center',
-                        alignItems:'center'
-                    }}>
-                        <LinkedInIcon sx={{ 
-                            width:{
-                                xs: '20px',
-                                sm: '30px',
-                                md: '40px',
-                                lg: '50px',
-                            },
-                            height:{
-                                xs: '20px',
-                                sm: '30px',
-                                md: '40px',
-                                lg: '50px',
-                            }
-                        }} />
-                        <Link 
-                            sx={{
-                                fontSize: {
-                                    xs: '0.5rem',
-                                    sm: '0.8rem',
-                                    md: '1rem',
-                                    lg: '1.5rem',
-                                },
-                            }}
-                            style={{ color:'white', textDecoration:'none' }} 
-                            href='https://www.linkedin.com/in/cristian-miguel-marin-barrera-936803200'
-                        >
-                            My profile
-                        </Link>
-                    </Container>
-                    <Container sx={{
-                        display:'flex',
-                        justifyContent:'center',
-                        alignItems:'center'
-                    }}>
-                        <GitHubIcon sx={{ 
-                            width:{
-                                xs: '20px',
-                                sm: '30px',
-                                md: '40px',
-                                lg: '50px',
-                            },
-                            height:{
-                                xs: '20px',
-                                sm: '30px',
-                                md: '40px',
-                                lg: '50px',
-                            }, 
-                        }} />
-                        <Link
-                            sx={{
-                                fontSize: {
-                                    xs: '0.5rem',
-                                    sm: '0.8rem',
-                                    md: '1rem',
-                                    lg: '1.5rem',
-                                },
-                            }}
-                            style={{ color:'white', textDecoration:'none'}} 
-                            href='https://github.com/Cristian-Miguel'>
-                            My repositories
-                        </Link>
-                    </Container>
-                </Container>
-
-            </Box>
-        </>
+                <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                    <GitHubIcon sx={{ fontSize: { xs: '24px', sm: '32px', md: '40px' } }} />
+                    <Link
+                        sx={{ fontSize: { xs: '0.9rem', sm: '1rem', md: '1.1rem' } }}
+                        style={{ color: 'white', textDecoration: 'none' }} 
+                        href='https://github.com/Cristian-Miguel'
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        My repositories
+                    </Link>
+                </Box>
+            </Container>
+        </Box>
     );
-}
+};
 
 export default AboutMe;

@@ -1,7 +1,7 @@
 {
   "homepage": "https://cristian-miguel.github.io/Portafolio",
   "name": "portafolioproyectos",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.3",
@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "pnpm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

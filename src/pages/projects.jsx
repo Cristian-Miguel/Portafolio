@@ -4,6 +4,7 @@ import TandexProject from '../components/projects/tandexProject';
 import ProcessProgram from '../components/projects/processProgram';
 import ProgrammingLenguage from '../components/projects/programingLenguage';
 import ManageReservation from '../components/projects/reservationProject';
+import MicroserviceProject from '../components/projects/microservicesProject';
 
 const Projects = () => {
   return (
@@ -39,6 +40,8 @@ const Projects = () => {
           }}
         >Projects</Typography> 
       </Box>
+      
+      <MicroserviceProject/>
 
       <TandexProject/>
 
