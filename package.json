@@ -1,7 +1,7 @@
 {
   "homepage": "https://cristian-miguel.github.io/Portafolio",
   "name": "portafolioproyectos",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.3",
