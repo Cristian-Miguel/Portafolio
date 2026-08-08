@@ -15,6 +15,7 @@ const Education = () => {
             sx={{
                 width: '100%',
                 minHeight: '100vh',
+                marginTop: '150px',
                 background: 'linear-gradient(#000, #072d4c)', 
                 display: 'flex',
                 flexDirection: 'column',
