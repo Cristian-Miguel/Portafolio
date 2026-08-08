@@ -40,9 +40,7 @@ const Home = () => {
             </Box>
 
             <AboutMe/>
-
             <MyExperience/>
-
             <Education/>
 
         </>

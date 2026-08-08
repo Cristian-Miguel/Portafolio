@@ -42,13 +42,9 @@ const Projects = () => {
       </Box>
       
       <MicroserviceProject/>
-
       <TandexProject/>
-
       <ProcessProgram/>
-
       <ProgrammingLenguage/>
-
       <ManageReservation />
     
     </>
